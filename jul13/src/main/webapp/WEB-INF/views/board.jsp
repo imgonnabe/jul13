@@ -36,32 +36,5 @@
 		</tbody>
 	</table>
 	
-	<hr>
-	${list2 }
-	<hr>
-	
-	<table>
-		<thead>
-			<tr>
-				<th>번호</th>
-				<th>제목</th>
-				<th>글쓴이</th>
-				<th>날짜</th>
-				<th>조회수</th>
-			</tr>
-		</thead>
-		<tbody>
-			<c:forEach items="${list2 }" var="i">
-				<tr>
-					<td id="td1">${i.bno }</td>
-					<td class="title">${i.btitle }</td>
-					<td id="td1">${i.bwrite }</td>
-					<td id="td2">${i.bdate }</td>
-					<td id="td1">${i.blike }</td>
-				</tr>
-			</c:forEach>
-		</tbody>
-	</table>
-	
 </body>
 </html>
